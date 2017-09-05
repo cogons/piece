@@ -1,0 +1,22 @@
+{
+  "name": "piece",
+  "version": "1.0.0",
+  "description": "Generate a piece of work.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "piece": "bin/index.js"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Cogons",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "shelljs": "^0.7.8"
+  }
+}
